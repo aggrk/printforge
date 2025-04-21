@@ -22,6 +22,17 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/3d-models/page.jsx",
+    "app/3d-models/[id]/page.jsx",
+    "app/lib/models.js",
+    "app/about/page.jsx",
+    "app/page.jsx",
+    "app/layout.jsx"
+  ],
   "exclude": ["node_modules"]
 }
